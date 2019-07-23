@@ -1,5 +1,4 @@
 #include <fstream>
-#include <iostream>
 
 int main() {
   const int nx = 200;
