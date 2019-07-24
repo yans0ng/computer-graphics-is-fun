@@ -1,0 +1,13 @@
+---
+BasedOnStyle: Google
+---
+Language: Cpp
+Standard: Cpp11
+AllowShortBlocksOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+BreakBeforeBraces: Attach
+ColumnLimit: 80
+Cpp11BracedListStyle: true
+PointerAlignment: Right
+---
+
