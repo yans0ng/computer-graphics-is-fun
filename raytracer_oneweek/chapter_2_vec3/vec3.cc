@@ -1,3 +1,8 @@
+// Implement class `raytrace::Vec3`
+//
+// Reference http://bit.ly/32NXpPg
+//
+// Yan-Song Chen (c.yansong2@gmail.com)
 
 #include "vec3.h"
 
@@ -83,6 +88,16 @@ bool operator==(const Vec3& lhs, const Vec3& rhs) {
 
 bool operator!=(const Vec3& lhs, const Vec3& rhs) {
   return !(lhs == rhs);
+}
+
+std::istream& operator>>(std::istream& istream, Vec3& vector) {
+  istream >> vector[0] >> vector[1] >> vector[2];
+  return istream;
+}
+
+std::ostream& operator<<(std::ostream& ostream, const Vec3& vector) {
+  ostream << vector[0] << ' ' << vector[1] << ' ' << vector[2];
+  return ostream;
 }
 
 }  // namespace raytrace
