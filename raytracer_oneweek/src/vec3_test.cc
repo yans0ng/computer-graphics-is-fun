@@ -1,4 +1,10 @@
-#include "vec3.h"
+// Test class `raytrace::Vec3`
+//
+// Reference http://bit.ly/32NXpPg
+//
+// Yan-Song Chen (c.yansong2@gmail.com)
+
+#include "raytracer_oneweek/include/vec3.h"
 
 #include <iostream>
 
